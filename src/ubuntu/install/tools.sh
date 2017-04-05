@@ -4,5 +4,5 @@ set -e
 
 echo "Install some common tools for further installation"
 apt-get update 
-apt-get install -y nano wget net-tools
+apt-get install -y nano wget net-tools ssh
 apt-get clean -y
